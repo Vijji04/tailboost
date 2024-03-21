@@ -1,9 +1,11 @@
 import React from 'react';
 import {
+  AcademicCapIcon,
   BriefcaseIcon,
   CalendarIcon,
   CheckIcon,
   ChevronDownIcon,
+
 } from '@heroicons/react/20/solid';
 
 function Sidebar() {
@@ -21,7 +23,7 @@ function Sidebar() {
           <BriefcaseIcon className="h-6 w-6 text-white" />
           <CalendarIcon className="h-6 w-6 text-white" />
           <CheckIcon className="h-6 w-6 text-white" />
-          <BriefcaseIcon className="h-6 w-6 text-white" />
+          <AcademicCapIcon className="h-6 w-6 text-white" />
 
           <ChevronDownIcon className="h-6 w-6 text-white" />
         </div>
